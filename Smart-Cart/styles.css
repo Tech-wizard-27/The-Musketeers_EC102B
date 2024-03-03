@@ -22,8 +22,8 @@ nav {
 }
 
 nav ul{
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    inline-flex-direction: row;
     gap: 30px;
 }
 
@@ -110,8 +110,9 @@ input ::placeholder{
 #leftportion{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    height: 80%;
+    gap: 15px;
+    height: 90%;
+    width: 50%;
 }
 
 #leftportion button{

@@ -60,4 +60,20 @@ body {
     background-color: #0dcf85;
   }
   
-  
+  nav ul{
+    display: inline-flex;
+    inline-flex-direction: row;
+    gap: 30px;
+}
+
+.search-container {
+    background-color: #F5CAC3;
+    float: left;
+    border-radius: 50px;
+}
+
+  #logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
