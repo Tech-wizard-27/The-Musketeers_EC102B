@@ -4,10 +4,10 @@
 
 body {
     margin: 0;
-    background-color: #ec211d;
+    background-color: #e0a709;
     font-family: Montserrat;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
