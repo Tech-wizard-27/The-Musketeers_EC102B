@@ -23,9 +23,16 @@ nav {
 
 nav ul{
     display: inline-flex;
-    inline-flex-direction: row;
+    flex-direction: row;
     gap: 30px;
 }
+
+nav u2{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 
 nav ul li{
     list-style: none;
