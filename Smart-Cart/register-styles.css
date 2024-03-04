@@ -1,11 +1,11 @@
 body {
-    font-family: Times New Roman, serif;
-    background-color: yellow;
-    margin: 0; /* Remove default body margin */
-    display: flex; /* Allow centering of content */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    min-height: 100vh; /* Set minimum viewport height */
+    font-family:  'Times New Roman', Times, serif, serif;
+    background-color: #dbab0c;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
   }
   
   .register-form {
@@ -13,7 +13,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     background-color: white;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
   }
   
   h2 {
@@ -38,13 +38,26 @@ body {
     border-radius: 3px;
   }
   
-  .button {
-    background-color: green;
-    color: white;
+  button {
+    background-color: #27e20e;
+    color: rgb(10, 1, 1);
     padding: 10px 20px;
-    border: none;
+    border: ridge;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px; /* Add space after form fields */
   }
+
+  button:hover {
+    background-color: #0dcf85;
+  }
+
+  button:hover {
+    background-color: #0dcf85;
+  }
+
+  #logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
   
